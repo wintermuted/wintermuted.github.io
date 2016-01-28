@@ -41,9 +41,6 @@ div.panel div.panel-body article:last-child hr {
 .navbar-inverse {
   background: #2A2F37;
 }
-div#main-background-content {
-  margin-top: 50px;
-}
 section#hero-container {
   background: #222222;
   position: relative;
@@ -80,14 +77,9 @@ section#hero-container.main-hero {
   background-attachment: scroll;
   background-size: cover;
   background-position: 20% 50%;
-  min-height: 500px;
+  min-height: 50px;
 }
 section#below-hero-container {
   padding-top: 100px;
   padding-bottom: 100px;
-}
-footer#main-footer {
-  background: White;
-  padding-top: 30px;
-  min-height: 400px;
 }
