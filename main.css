@@ -82,3 +82,12 @@ section#hero-container.main-hero {
 section#below-hero-container {
   padding-top: 50px;
 }
+@media (max-width: 765px) {
+  section#below-hero-container {
+    padding-top: 15px;
+  }
+  section#hero-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
