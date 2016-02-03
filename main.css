@@ -72,7 +72,7 @@ section#hero-container article.main-background-text h3 {
   margin: 0px;
 }
 section#hero-container.main-hero {
-  background-image: url('images/DeathtoStock_Wired7.jpg');
+  background-image: url('images/hero-background.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
