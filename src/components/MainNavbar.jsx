@@ -2,7 +2,7 @@ import {faGithub, faTwitter} from "@fortawesome/free-brands-svg-icons";
 import {faPaperclip, faRss} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Container, Nav, Navbar} from "react-bootstrap";
-import { LinkContainer } from 'react-router-bootstrap'
+import {LinkContainer} from 'react-router-bootstrap'
 
 export default function MainNavbar() {
     return (
@@ -18,29 +18,31 @@ export default function MainNavbar() {
                     />{' '}
                     Jameson Nyeholt
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Nav className="mr-auto">
-                    <LinkContainer to="/">
-                        <Nav.Link>Home</Nav.Link>
-                    </LinkContainer>
-                    <LinkContainer to="/about">
-                        <Nav.Link>
-                            About Me
-                        </Nav.Link>
-                    </LinkContainer>
-                    <LinkContainer to="/projects">
-                        <Nav.Link>
-                            Projects
-                        </Nav.Link>
-                    </LinkContainer>
-                    <LinkContainer to="/blog">
-                        <Nav.Link>
-                            <FontAwesomeIcon icon={faRss}
-                                             className="header-icon"/>
-                            Weblog
-                        </Nav.Link>
-                    </LinkContainer>
-                </Nav>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="mr-auto">
+                        <LinkContainer to="/">
+                            <Nav.Link>Home</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/about">
+                            <Nav.Link>
+                                About Me
+                            </Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/projects">
+                            <Nav.Link>
+                                Projects
+                            </Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/blog">
+                            <Nav.Link>
+                                <FontAwesomeIcon icon={faRss}
+                                                 className="header-icon"/>
+                                Weblog
+                            </Nav.Link>
+                        </LinkContainer>
+                    </Nav>
+                </Navbar.Collapse>
                 <Nav>
                     <LinkContainer to="/cv">
                         <Nav.Link>

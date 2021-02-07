@@ -11,7 +11,7 @@ export function Profile() {
                 <Card.Text>
                     <p>
                         Portland, Oregon, USA
-                        pronouns: he / him
+                        pronouns: <a href="http://pronoun.is/he">he / him</a>
                     </p>
                     <a href="mailto:jnyeholt@hey.com">jnyeholt@hey.com</a>
                 </Card.Text>
