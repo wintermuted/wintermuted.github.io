@@ -10,7 +10,7 @@ export default function About() {
                 </Col>
             </Row>
             <Row>
-                <Col md={8}>
+                <Col sm={12} md={8} lg={9}>
                     {/*<h3 id="background">Background</h3>*/}
                     <p>
                         I am a Senior Software Engineer at Xandr, an
@@ -74,7 +74,7 @@ export default function About() {
                     {/*<h5 id="golden-rule">The Golden Rule - Be Kind</h5>*/}
                     {/*<p></p>*/}
                 </Col>
-                <Col md={4}>
+                <Col sm={12} md={4} lg={3}>
                     <ul class="list-unstyled">
                         {/*<li><a href="#background">Background</a></li>*/}
                         <li><a href="#mission">Mission</a></li>

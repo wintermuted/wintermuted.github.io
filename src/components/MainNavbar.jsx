@@ -6,12 +6,12 @@ import {LinkContainer} from 'react-router-bootstrap'
 export default function MainNavbar() {
     return (
         <Container>
-            <Navbar bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Navbar.Brand>
                     Jameson Nyeholt
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                         <LinkContainer to="/" exact={true}>
                             <Nav.Link>Home</Nav.Link>
@@ -32,26 +32,19 @@ export default function MainNavbar() {
                             Weblog
                         </Nav.Link>
                     </Nav>
+                    <Nav>
+                        <Nav.Link href="https://twitter.com/jwnyeholt">
+                            <FontAwesomeIcon icon={faTwitter}
+                                             className="header-icon"/>
+                            Twitter
+                        </Nav.Link>
+                        <Nav.Link href="https://github.com/wintermuted">
+                            <FontAwesomeIcon icon={faGithub}
+                                             className="header-icon"/>
+                            Github
+                        </Nav.Link>
+                    </Nav>
                 </Navbar.Collapse>
-                <Nav>
-                    {/*<LinkContainer to="/cv">*/}
-                    {/*    <Nav.Link>*/}
-                    {/*        <FontAwesomeIcon icon={faPaperclip}*/}
-                    {/*                         className="header-icon"/>*/}
-                    {/*        CV*/}
-                    {/*    </Nav.Link>*/}
-                    {/*</LinkContainer>*/}
-                    <Nav.Link href="https://twitter.com/jwnyeholt">
-                        <FontAwesomeIcon icon={faTwitter}
-                                         className="header-icon"/>
-                        Twitter
-                    </Nav.Link>
-                    <Nav.Link href="https://github.com/wintermuted">
-                        <FontAwesomeIcon icon={faGithub}
-                                         className="header-icon"/>
-                        Github
-                    </Nav.Link>
-                </Nav>
             </Navbar>
         </Container>
     )

@@ -6,10 +6,10 @@ export default function Home() {
     return (
         <Container>
             <Row>
-                <Col md={3}>
+                <Col sm={12} md={4} lg={3}>
                     <Profile />
                 </Col>
-                <Col md={9}>
+                <Col sm={12} md={8} lg={9}>
                     <HomepageContent />
                 </Col>
             </Row>
