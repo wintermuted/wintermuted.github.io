@@ -26,13 +26,11 @@ export default function MainNavbar() {
                         {/*        Projects*/}
                         {/*    </Nav.Link>*/}
                         {/*</LinkContainer>*/}
-                        <LinkContainer to="http://jamesonnyeholt.com/blog">
-                            <Nav.Link>
-                                {/*<FontAwesomeIcon icon={faRss}*/}
-                                {/*                 className="header-icon"/>*/}
-                                Weblog
-                            </Nav.Link>
-                        </LinkContainer>
+                        <Nav.Link href="http://jamesonnyeholt.com/blog">
+                            {/*<FontAwesomeIcon icon={faRss}*/}
+                            {/*                 className="header-icon"/>*/}
+                            Weblog
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 <Nav>
