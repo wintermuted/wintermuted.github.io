@@ -74,25 +74,25 @@ export default function About() {
                     {/*<h5 id="golden-rule">The Golden Rule - Be Kind</h5>*/}
                     {/*<p></p>*/}
                 </Col>
-                <Col sm={12} md={4} lg={3}>
-                    <ul class="list-unstyled">
-                        {/*<li><a href="#background">Background</a></li>*/}
-                        <li><a href="#mission">Mission</a></li>
-                        <li>
-                            <a href="philosophy">
-                                Philosophy
-                            </a>
-                            <ul>
-                                <li><a href="#golden-mean">The Golden Mean</a>
-                                </li>
-                                <li><a href="#kaizen">Kaizen</a></li>
-                                <li><a href="#sustainable-design">Sustainable
-                                    Design</a></li>
-                                {/*<li><a href="#golden-rule">The Golden Rule</a></li>*/}
-                            </ul>
-                        </li>
-                    </ul>
-                </Col>
+                {/*<Col sm={12} md={4} lg={3}>*/}
+                {/*    <ul class="list-unstyled">*/}
+                {/*        /!*<li><a href="#background">Background</a></li>*!/*/}
+                {/*        <li><a href="#mission">Mission</a></li>*/}
+                {/*        <li>*/}
+                {/*            <a href="philosophy">*/}
+                {/*                Philosophy*/}
+                {/*            </a>*/}
+                {/*            <ul>*/}
+                {/*                <li><a href="#golden-mean">The Golden Mean</a>*/}
+                {/*                </li>*/}
+                {/*                <li><a href="#kaizen">Kaizen</a></li>*/}
+                {/*                <li><a href="#/about/#sustainable-design">Sustainable*/}
+                {/*                    Design</a></li>*/}
+                {/*                /!*<li><a href="#golden-rule">The Golden Rule</a></li>*!/*/}
+                {/*            </ul>*/}
+                {/*        </li>*/}
+                {/*    </ul>*/}
+                {/*</Col>*/}
             </Row>
         </Container>
     )
