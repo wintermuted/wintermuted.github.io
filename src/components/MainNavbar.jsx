@@ -1,5 +1,4 @@
 import {faGithub, faTwitter} from "@fortawesome/free-brands-svg-icons";
-import {faPaperclip, faRss} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Container, Nav, Navbar} from "react-bootstrap";
 import {LinkContainer} from 'react-router-bootstrap'
@@ -9,49 +8,42 @@ export default function MainNavbar() {
         <Container>
             <Navbar bg="dark" variant="dark">
                 <Navbar.Brand>
-                    <img
-                        alt=""
-                        src="/logo.svg"
-                        width="30"
-                        height="30"
-                        className="d-inline-block align-top"
-                    />{' '}
                     Jameson Nyeholt
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <LinkContainer to="/">
+                        <LinkContainer to="/" exact={true}>
                             <Nav.Link>Home</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to="/about">
                             <Nav.Link>
-                                About Me
+                                About
                             </Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to="/projects">
+                        {/*<LinkContainer to="/projects">*/}
+                        {/*    <Nav.Link>*/}
+                        {/*        Projects*/}
+                        {/*    </Nav.Link>*/}
+                        {/*</LinkContainer>*/}
+                        <LinkContainer to="http://jamesonnyeholt.com/blog">
                             <Nav.Link>
-                                Projects
-                            </Nav.Link>
-                        </LinkContainer>
-                        <LinkContainer to="/blog">
-                            <Nav.Link>
-                                <FontAwesomeIcon icon={faRss}
-                                                 className="header-icon"/>
+                                {/*<FontAwesomeIcon icon={faRss}*/}
+                                {/*                 className="header-icon"/>*/}
                                 Weblog
                             </Nav.Link>
                         </LinkContainer>
                     </Nav>
                 </Navbar.Collapse>
                 <Nav>
-                    <LinkContainer to="/cv">
-                        <Nav.Link>
-                            <FontAwesomeIcon icon={faPaperclip}
-                                             className="header-icon"/>
-                            CV
-                        </Nav.Link>
-                    </LinkContainer>
-                    <Nav.Link href="https://github.com/wintermuted">
+                    {/*<LinkContainer to="/cv">*/}
+                    {/*    <Nav.Link>*/}
+                    {/*        <FontAwesomeIcon icon={faPaperclip}*/}
+                    {/*                         className="header-icon"/>*/}
+                    {/*        CV*/}
+                    {/*    </Nav.Link>*/}
+                    {/*</LinkContainer>*/}
+                    <Nav.Link href="https://twitter.com/jwnyeholt">
                         <FontAwesomeIcon icon={faTwitter}
                                          className="header-icon"/>
                         Twitter
