@@ -8,7 +8,7 @@ export default function HomepageContent() {
                 I'm currently leading a team at <a href="https://www.xandr.com">Xandr</a> that builds workflows for digital advertising publishers.
             </p>
             <p className="lead">
-                During the pandemic I've been focused on a few different programming, music, and woodworking projects.
+                During the COVID-19 pandemic I've been focused on a few different programming, music, and woodworking projects.
             </p>
             <hr />
             <h4>Current projects</h4>
